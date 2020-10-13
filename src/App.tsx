@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  TwitterShareButton,
+  TwitterIcon
+} from 'react-share';
 
 const prefix2Data = [
 	"スーパー", "ハイパー", "ウルトラ", "ブリリアント", "冷やし", "大人の", "たのしい", "いつもの", "野生の", "すごい", "かなり", "ちょっと", "すこし", "やっぱり", "スペシャル",
@@ -94,6 +98,7 @@ function App() {
   const onClick = () => {
     setTeamName(generateTeamName());
   }
+  const title = `あなたのチーム名は ${teamName} です - ${window.document.title}`
 
   return (
     <div className="App">
@@ -104,6 +109,9 @@ function App() {
       <p>です</p>
       <br />
       <input type="button" value="生成" onClick={onClick} />
+      <TwitterShareButton url={window.location.href} title={title}>
+          <TwitterIcon size={32} round />
+      </TwitterShareButton>
     </div>
   );
 }
