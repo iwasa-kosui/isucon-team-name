@@ -98,7 +98,7 @@ function App() {
   const onClick = () => {
     setTeamName(generateTeamName());
   }
-  const title = `あなたのチーム名は ${teamName} です - ${window.document.title}`
+  const title = `あなたのチーム名は 「${teamName}」 です - ${window.document.title}`
 
   return (
     <div className="App">
