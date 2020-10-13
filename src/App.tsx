@@ -109,7 +109,7 @@ function App() {
       <p>です</p>
       <br />
       <input type="button" value="生成" onClick={onClick} />
-      <TwitterShareButton url={window.location.href} title={title}>
+      <TwitterShareButton url={window.location.href} title={title} via="ebiebievidence">
           <TwitterIcon size={32} round />
       </TwitterShareButton>
     </div>
