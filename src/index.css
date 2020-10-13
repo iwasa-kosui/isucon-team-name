@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+    margin: 0;
+
+    text-align: center;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*
+{
+    margin: 8px;
+}
+
+.App
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    max-width: 100vw;
+    padding: 0 16px;
+}
+
+input[type=button]
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 100%;
+    max-width: 256px;
+    height: 64px;
+
+    background: white;
+}
+
+.teamName
+{
+    font-size: 24px;
+    font-weight: bold;
 }
