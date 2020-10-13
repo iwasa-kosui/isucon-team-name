@@ -103,7 +103,7 @@ function App() {
   return (
     <div className="App">
       <h1>ISUCON チーム名ジェネレータ</h1>
-      <p><a href="https://github.com/isucon/isucon10-final/blob/b2d2291d9938fefc879a6c8a2f65bd6335f2b873/benchmarker/random/team_name.go">ISUCON 10 本戦のチーム名ジェネレータ</a>の React 移植実装です <a href="https://github.com/iwasa-kosui/isucon-team-name">[repo]</a></p>
+      <p><a href="https://twitter.com/mirakui">@mirakui</a>さんによる<a href="https://github.com/isucon/isucon10-final/blob/b2d2291d9938fefc879a6c8a2f65bd6335f2b873/benchmarker/random/team_name.go">ISUCON 10 本戦のチーム名ジェネレータ</a>の React 移植実装です <a href="https://github.com/iwasa-kosui/isucon-team-name">[repo]</a></p>
       <p>あなたのチーム名は...</p>
       <p className="teamName">{teamName}</p>
       <p>です</p>
